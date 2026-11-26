@@ -19,7 +19,7 @@ jobs:
         
 
   test:
-    needs: builds
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Running test cases
